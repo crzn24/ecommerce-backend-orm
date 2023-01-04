@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Product data
   try {
     const allTags = await Tag.findAll({
-      inlclude: [{model: Product}]
+      include: [{model: Product}]
     });
     res.status(200).json(allTags); // 200 status code means the request is successful
   } catch (err) {
