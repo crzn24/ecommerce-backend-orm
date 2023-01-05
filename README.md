@@ -46,3 +46,4 @@ THEN I am able to successfully create, update, and delete data in my database
 * [Sequelize Data Types](https://sequelize.org/docs/v7/other-topics/other-data-types/)
 
 ## License
+MIT License
