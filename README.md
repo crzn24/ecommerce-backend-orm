@@ -3,7 +3,7 @@
 ## Description
 This project was a challenge assigned to us where we had to build the back end for an e-commerce site by modifying starter code. We had to configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
-This challenge was a better experience for me since we were given starter code, though the amount of starter code was initially overwhelming. After breaking it down and following the README guide and tips, it started to make more sense to me. The back end continues to be a tricky concept than previous ones and I am still not there yet when it comes to understanding all the syntax but after completing this challenge, I am another step closer to comprehending how everything works.
+This challenge was a better experience for me since we were given starter code, though the amount of starter code was initially overwhelming. After breaking it down and following the README guide and tips, it started to make more sense to me. The back end continues to be a tricky concept than previous ones and I am still not there yet when it comes to understanding all the syntax but after completing this challenge, I am another step closer to comprehending how everything works. One of the challenges I ran into was having associate data show up in some of the GET routes, after having some help it turned out to be a typo in the word 'include' that prevented the data from showing up in all my get requests. I also have not yet found the solution to displaying the decimal places for the prices of items instead of just rounding the price to the nearest whole number.
 
 
 ## User Story
@@ -34,10 +34,9 @@ THEN I am able to successfully create, update, and delete data in my database
 
 [Link to Repository](https://github.com/crzn24/ecommerce-backend-orm.git)
 
-[Walkthrough Video Demo]()
+[Walkthrough Video Demo](https://drive.google.com/file/d/1dbPvPw39aBZk8Qf83ViuUGSDYZVoimSk/view?usp=sharing)
 
-![Screenshot of ]()
-![Screenshot of ]()
+![Screenshot of Insomnia testing routes](./assets/images/screenshot-insomnia-ecommerce-backend-orm.png)
 
 
 ## Credits
@@ -45,8 +44,5 @@ THEN I am able to successfully create, update, and delete data in my database
 * [Sequelize Model Validations & Constraints](https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/)
 * [Sequelize Associations](https://sequelize.org/docs/v6/core-concepts/assocs/)
 * [Sequelize Data Types](https://sequelize.org/docs/v7/other-topics/other-data-types/)
-* []()
-* []()
-* []()
 
 ## License
